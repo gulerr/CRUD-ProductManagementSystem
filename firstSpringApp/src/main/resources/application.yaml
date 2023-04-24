@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  jpa:
+    hibernate:
+       ddl-auto: update
+  application:
+    name: firstSpringApp
+  datasource:
+     url: jdbc:mysql://localhost:3306/productmanagmentsystem
+     driver-class-name: com.mysql.cj.jdbc.Driver
+     username: Guler
+     password: G8m01sc5
+
